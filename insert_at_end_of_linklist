@@ -1,0 +1,33 @@
+#inlcude<stdio.h>
+#include<stdlib.h>
+struct node
+{
+int i;
+struct node *next;
+};
+int main()
+{
+int val,i,k;
+struct node *temp, *p, *head=NULL;
+temp=(struct node*) malloc( (size of(structure));
+printf("enter the values in linkedlist");
+scanf("%d", val);
+temp->next=NULL;
+head=temp;
+p=temp;
+while(val!=0)
+{
+scanf("%d", val);
+temp=(struct node*) malloc (size of(struct node));
+}
+p->next=temp;
+temp->i=val;
+temp->next=NULL;
+p=temp;
+temp=head;
+while(temp!=0)
+{
+printf("%d",temp->i);
+temp=temp->next;
+}
+}
