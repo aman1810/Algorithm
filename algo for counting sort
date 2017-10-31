@@ -1,0 +1,9 @@
+for i<-- o to k
+do i[1] <--o
+for j<--1 to lenth[A]
+do c[A(j)]<-- c[A(j)]+1
+for i<--1 to k
+do c[i]<-- c[i]+c[i-1]
+for j<--length A.  (down to 1)
+do B[c[A(j)]<--A[j]
+c[A(j)]<-- c[A(j)]-1
